@@ -576,6 +576,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac89cd296653ab24dba5cd4bed013661, type: 3}
+--- !u!1001 &864571691
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.54813385
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.317842
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.350608
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851917508807067105, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6520648574796423003, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
+      propertyPath: m_Name
+      value: BannanaCar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 70a5925c56bd2f749927b18f0917c364, type: 3}
 --- !u!1001 &994844950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -680,7 +737,7 @@ Transform:
   - {fileID: 692811335}
   - {fileID: 994844951}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1801879768
 GameObject:
@@ -807,7 +864,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1839990607
 PrefabInstance:
