@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip[] audioClipArray;
     public float horInput, verInput;
     Rigidbody rb;
     public float speed,rotSpeed;
@@ -17,15 +19,35 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         getInput();
-        transform.Rotate(0, Time.deltaTime * rotSpeed * horInput, 0, Space.Self);
 
-        //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, verInput) * speed * Time.deltaTime;
-        transform.position += transform.forward * Time.deltaTime * speed* verInput;
-        
+        rb.velocity = new Vector3(horInput, rb.velocity.y, verInput) * speed * Time.deltaTime;
+       // transform.position += transform.forward * Time.deltaTime * speed* verInput;
+        //rotate a little with dirrectional press
     }
     private void getInput()
     {
         horInput = Input.GetAxis("Horizontal");
-        verInput = (Input.GetAxis("Vertical") + 1F) / 2;
+        verInput = (Input.GetAxis("Vertical")) / 2;
+    }
+    private void scream()
+    {
+        audioSource.PlayOneShot(audioClipArray[1]);
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("car"))
+        {
+
+            audioSource.PlayOneShot(audioClipArray[0]);
+            Invoke("scream", 0.5f);
+            //game over
+        }
+        if (collision.gameObject.CompareTag("PlayerDeath"))
+        {
+            audioSource.PlayOneShot(audioClipArray[0]);
+            Invoke("scream", 0.5f);
+            //game over
+        }
+
     }
 }

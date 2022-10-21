@@ -6,6 +6,7 @@ TagManager:
   tags:
   - death
   - PlayerDeath
+  - car
   layers:
   - Default
   - TransparentFX
