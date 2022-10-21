@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 2755941963672624045}
   - component: {fileID: 1469424597755500808}
   - component: {fileID: 8299784561677482371}
+  - component: {fileID: 4474870240681155468}
   m_Layer: 0
   m_Name: LightPole
   m_TagString: Untagged
@@ -298,3 +299,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.43227363, y: 4.666175, z: 0.41556305}
   m_Center: {x: 0.00835526, y: 2.3330874, z: 0}
+--- !u!114 &4474870240681155468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9010970368405654897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21a35e119a6794429cfdf54f8b89ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadGen: {fileID: 0}
+  speed: 0
+  incoming: 0
