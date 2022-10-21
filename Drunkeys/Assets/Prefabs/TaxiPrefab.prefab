@@ -375,6 +375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5752700330094380585}
   - component: {fileID: 630257378592616630}
+  - component: {fileID: 8017686625687565428}
   m_Layer: 0
   m_Name: TaxiPrefab
   m_TagString: Untagged
@@ -416,6 +417,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7469968, y: 1.3110536, z: 4.525457}
   m_Center: {x: 0.010877705, y: 0.679876, z: 0.09539681}
+--- !u!114 &8017686625687565428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4944498103575911571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e37b491e1a326041956607f897ab386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carGen: {fileID: 0}
+  speed: 0
+  incoming: 0
 --- !u!1 &5268893935389156352
 GameObject:
   m_ObjectHideFlags: 0
